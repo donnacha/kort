@@ -1,0 +1,136 @@
+# error types
+error_type.title.motorway_ref=Autoroute sans référence
+error_type.title.poi_wo_name=Objet sans nom
+error_type.title.missing_speedlimit=Vitesse autorisée manquante
+error_type.title.tracktype=Type de voie inconnu
+error_type.title.worship_religion=Lieu de culte sans religion
+error_type.title.language_name=Langue du nom inconnue
+error_type.title.street_wo_name=Rue sans nom
+Autobahn ohne Bezeichner=Autoroute sans référence
+Objekt ohne Namen=Objet sans nom
+Fehlendes Tempolimit=Vitesse autorisée manquante
+Typ des Wegs unbekannt=Type de voie inconnu
+Kultstätte/Kirche ohne Religion=Lieu de culte sans religion
+Sprache des Namens unbekannt=Langue du nom inconnue
+Strasse ohne Namen=Rue sans nom
+
+# error type placeholders
+error_type.placeholder.ref=Reference
+error_type.placeholder.religion=Religion
+error_type.placeholder.speed_limit=Vitesse autorisée
+error_type.placeholder.language=Langue
+error_type.placeholder.type=Type
+error_type.placeholder.street_name=Nom de la rue
+Bezeichner=Reference
+Religion=Religion
+Tempolimit=Vitesse autorisée
+Sprache=Langue
+Typ=Type
+Strassenname=Nom de la rue
+
+# vote questions
+Ist diese Bezeichnung korrekt?=Est-ce la bonne référence pour cette autoroute ?
+Ist diese Kultstätte/Kirche von dieser Religion?=Est-ce la bonne religion concernant ce lieu de culte ?
+Passt der Name zum gegebenen Objekt?=Est-ce le bon nom pour cet objet ?
+Darf man auf dieser Strasse mit dieser Geschwindigkeit fahren?=Cette vitesse autorisée est-elle correct ?
+Ist der Name in folgender Sprache?=Ce nom est-il dans la langue suivante ?
+Ist der Weg folgendermassen beschaffen?=Cette voie est-elle du type suivant ?
+Ist dieser Strassenname korrekt?=Est-ce le nom correct pour cette rue ?
+
+# badge names
+1. Rang=1ère place
+2. Rang=2ème place
+3. Rang=3ème place
+100 Aufträge=100 missions
+50 Aufträge=50 missions
+10 Aufträge=10 missions
+1000 Prüfungen=1000 contrôles
+100 Prüfungen=100 contrôles
+10 Prüfungen=10 contrôles
+1. Auftrag=1ère mission
+1. Prüfung=1er contrôle
+
+# badge descriptions
+Erster Rang in der Highscore erreicht.=A atteint la 1ère place des meilleurs scores.
+Zweiter Rang in der Highscore erreicht.=A atteint la 2ème place des meilleurs scores.
+Dritter Rang in der Highscore erreicht.=A atteint la 3ème place des meilleurs scores.
+100 Aufträge erledigt.=100 missions accomplies.
+50 Aufträge erledigt.=50 missions accomplies.
+10 Aufträge erledigt.=10 missions accomplies.
+1000 Antworten überprüft.=1000 missions contrôlées.
+100 Antworten überprüft.=100 missions contrôlées.
+10 Antworten überprüft.=10 missions contrôlées.
+Erster Auftrag erledigt.=Première mission accomplie.
+Erste Antwort überprüft.=Premier contrôle de mission.
+
+# missing_track_types (http://wiki.openstreetmap.org/wiki/Key:tracktype)
+Asphalt, Beton oder Pflastersteine=Asphalt, béton ou pavés
+Schotter=Graviers
+Feinschotter-, Sand- oder Erdweg=Mélange de matériaux
+Weg mit Pflanzenwuchs entlang der Spurmitte=Herbe, sable ou matériaux instables
+Unbefestigter Weg=Piste non pavée
+
+# religion (http://wiki.openstreetmap.org/wiki/Key:religion)
+Buddhismus (Tempel)=Boudiste (temple)
+Christentum (Kirche)=Christiannisme (église)
+Hinduismus (Tempel)=Indoue (temple)
+Judentum (Synagoge)=Juive (synagogue)
+Mehrere Religionen=Plusieurs religions
+Islam (Moschee)=Islam (mosquée)
+Pastafarianismus=Pastafarian
+Shinto (Schrein)=Shinto (shrine)
+Sikh (Gurdwara)=Sikh (Gurdwara)
+
+# language (http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+Arabisch=Arabe
+Chinesisch=Chinois
+Dänisch=Danois
+Holländisch=Hollandais
+Englisch=Anglais
+Finnisch=Finnois
+Französisch=Français
+Deutsch=Allemand
+Griechisch=Grec
+Hebräisch=Hebreu
+Italienisch=Italien
+Japanisch=Japonais
+Norwegisch=Norvégien
+Polnisch=Polonais
+Portugiesisch=Portugais
+Rätoromanisch=Romans
+Rumänisch=Roumain
+Russisch=Russe
+Schweizerdeutsch=Suisse allemand
+Spanisch=Espagnol
+Schwedisch=Suédois
+Türkisch=Turc
+Vietnamesisch=Vietnamien
+
+# error descriptions (KeepRight)
+This track doesn't have a tracktype=Quel type de piste est-ce ?
+This node is tagged as $1 and therefore needs a name tag or an operator tag=Comment $1 est appelé ?
+This node is tagged as $1 and therefore needs a name tag=Comment $1 est appelé ?
+missing maxspeed tag=Quelle est la vitesse autorisée sur cette voie ?
+This way has no tags=Quel est le nom de cette rue ?
+It would be nice if this $1 had an additional tag 'name:XX=$2' where XX shows the language of its name '$2'.=Quelle est langue correpondant au nom '$2' ?
+This way is tagged as motorway and therefore needs a ref, nat_ref or int_ref tag=Quelle est la référence (exemple 'A 6' ou 'N 7') de cette autoroute ?
+This %1 is tagged as place of worship and therefore needs a religion tag=Quelle est la religion pratiquée dans ce lieu de culte ?
+
+# single values
+cafe=café
+fast_food=fast food
+restaurant=restaurant
+school=école
+pharmacy=pharmacie
+fuel=station service
+cinema=cinéma
+bank=banque
+university=université
+theatre=théatre
+pub=pub
+place_of_worship=lieu de culte
+library=bibliothèque
+hospital=hôpital
+courthouse=tribunal
+way=chemin
+node=lieu
