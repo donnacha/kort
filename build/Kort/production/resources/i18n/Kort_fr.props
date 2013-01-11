@@ -1,0 +1,178 @@
+# Main View (TabPanel)
+tab.bugmap=Missions
+tab.validation=Contrôle
+tab.highscore=Scores
+tab.profile=Profil
+tab.about=A propos
+
+# Login
+login.kort.description.1=Effectuer des missions
+login.kort.description.2=Récolter des Koins
+login.kort.description.3=Améliorer OpenStreetMap
+login.kort.introduction.1= aide à améliorer les données d'OpenStreetMap.
+login.kort.introduction.2=Pour cela vous verrez vos mission sur la carte. En effectuant les missions vous récolterez des Koins et gagnerez des médailles.
+login.kort.introduction.3=Chaque mission menée à bien sera ensuite vérifiée par un autre joueur pour son exactitude. Dès qu'il y a assez de notes positives pour une correction proposée, celle-ci sera envoyée sur OpenStreetMap.
+login.kort.introduction.4=Identifiez-vous dès maintenant pour mener votre première mission !
+login.button.google=Identification avec Google
+login.button.osm=Identification OpenStreetMap
+login.loadmask.message=Identification...
+
+# Firststeps
+firststeps.introduction.1=Bienvenue sur
+firststeps.introduction.2=! Choisissez un pseudo:
+firststeps.form.button.submit=Démarrer une mission !
+firststeps.alert.username.empty.title=Entrez votre pseudo
+firststeps.alert.username.empty.message=Veuillez entrer un pseudo.
+firststeps.alert.username.specialchars.title=Problème de caractère
+firststeps.alert.username.specialchars.message=Veuillez n'utiliser que des lettres et des chiffres pour votre pseudo.
+firststeps.alert.submit.failure.title=Erreur durant l'envoi
+firststeps.alert.submit.failure.message=Aïe ! Il y a eu une erreur durant l'envoi de votre pseudo. Essayez en redémarrant l'application.
+
+# Geolocation error
+geolocationerror.introduction.1=Pour utiliser
+geolocationerror.introduction.2= , la géolocation est indispensable.
+geolocationerror.button.reload=Relancer l'application
+geolocationerror.loadmask.message=Rechargement en cours...
+
+# Bugmap
+bugmap.title=Missions proches
+bugmap.loadmask.message=Chargement des missions...
+bugmap.messagebox.koins.earn=Gagner
+bugmap.messagebox.koins.name=Koins
+bugmap.messagebox.yes=Répondre
+bugmap.messagebox.no=Ne sait pas
+
+## Fix
+fix.form.title=Mission
+fix.form.koins.earn=Gagner
+fix.form.koins.name=Koins !
+fix.form.message.placeholder=Votre réponse...
+fix.form.button.showonmap=Montrer sur la carte
+fix.form.button.submit=Mission accomplie
+fix.form.loadmask.message=Chargement des réponses...
+fix.form.notfixable.label=Impossible de répondre
+fix.map.title=Carte
+fix.sendmask.message=Envoi de la solution...
+fix.alert.fixfield.empty.title=Remplissez les champs
+fix.alert.fixfield.empty.message=Veuillez remplir tout les champs.
+fix.alert.submit.failure.title=Erreur durant l'envoi
+fix.alert.submit.failure.message=Aïe ! Il y a eu une erreur lors de l'envoi de votre solution. Essayez en relançant l'appli.
+
+# Validation
+validation.title=Contrôle
+validation.loadmask.message=Chargement des données...
+validation.emptytext=Bravo ! Vouv avez tout vérifié.
+validation.list.header=notes positives nécessaires
+validation.distance=Distance
+
+## Vote
+vote.falsepositive.question=Cette mission est indiquée comme "impossible à résoudre". Est-ce correct ?
+vote.container.button.answer=Répondre
+vote.answeractionsheet.button.accept=Oui
+vote.answeractionsheet.button.decline=Non
+vote.answeractionsheet.button.cancel=Ne sait pas
+vote.answeractionsheet.question=La réponse est-elle correcte ?
+vote.sendmask.message=Envoi de la réponse...
+vote.alert.submit.failure.title=Erreur durant l'envoi
+vote.alert.submit.failure.message=Aïe ! Il y a eu une erreur lors de l'envoi de votre réponse. Essayez en relançant l'appli.
+
+# Highscore
+highscore.title=Meilleurs scores
+highscore.loadmask.message=Chargement des scores...
+highscore.emptytext=Impossible de charger les scores.
+highscore.you=C'est vous !
+highscore.koins=Koins
+highscore.fixcount=Missions:
+highscore.votecount=Contrôles:
+highscore.user.badges.emptytext=Impossible de charger les médailles.
+
+# Profil
+profile.title=Profil
+profile.button.logout=Déconnexion
+profile.button.changeusername=Changer de pseudo
+profile.settings.messagebox.title=Réglages
+profile.settings.messagebox.message=Entrez votre pseudo
+profile.username.loadmask.message=Enregistrement du pseudo...
+profile.content.username=Pseudo
+profile.content.oauthprovider=Connexion via
+profile.content.fixes=Missions accomplies
+profile.content.votes=Contrôles effectués
+profile.content.koins.header=Koins récoltés
+profile.content.koins.title=Koins
+profile.content.ranking.title=Place
+profile.content.badges.header=Médailles gagnées
+profile.logout.loadmask.message=Déconexion...
+profile.refresh.loadmask.message=Chargement du profil...
+profile.badges.title=Vos médailles
+profile.badges.recieved=Reçus le:
+profile.badges.emptytext=Vos médailles n'ont pas pu être chargées.
+profile.badges.button.close=Fermer
+profile.alert.username.empty.title=Entrez votre pseudo
+profile.alert.username.empty.message=Entrez un pseudo.
+profile.alert.username.specialchars.title=Problème de caractères
+profile.alert.username.specialchars.message=Veuillez n'utiliser que des lettres et des chiffres pour votre pseudo.
+profile.alert.submit.failure.title=Erreur durant l'envoi
+profile.alert.submit.failure.message=Aïe ! Il y a eu une erreur lors de l'envoi. Essayez en relançant l'appli.
+
+# About
+about.title=A propos
+about.version.title=Version
+about.information.title=Plus d'information
+about.information.homepage=Site web:
+about.information.feedback=Feedback/FAQ:
+about.information.bugs=Signaler un bug:
+about.developers.title=Developpeur
+about.project.title=Projet
+about.project.advisor=Direction:
+about.credits.title=Crédits
+about.credits.partner=Partenaires:
+about.credits.mapdata=Donnée cartographiques:
+about.credits.tiledata=Tuiles:
+about.credits.markers=Icônes:
+about.legal.title=Notice légale:
+about.legal.message=Veuillez suivre les recommendations d'OpenStreetMap et n'utiliser aucune source de données sous copyright ou protégée sans permission.
+
+# PullRefresh Plugin
+pullrefresh.pullrefresh=Pull down to refresh
+pullrefresh.releaserefresh=Relâcher pour rafraîchir...
+pullrefresh.loading=chargement...
+pullrefresh.lastupdated=Dernière mise à jour:
+
+# Button
+button.back=Retour
+
+# MessageBox
+messagebox.ok=OK
+messagebox.yes=Oui
+messagebox.no=Non
+messagebox.cancel=Annuler
+
+# Picker
+picker.done=Terminer
+picker.cancel=Annuler
+
+# Reward
+reward.alert.title=Vous avez améliorer votre grade !
+reward.alert.koins.new.1=Bravo ! Vous avez gagné
+reward.alert.koins.new.2=Koins.
+reward.alert.koins.total.1=Vous avez maintenant un total de
+reward.alert.koins.total.2=Koins.
+reward.alert.badges.title=Médailles gagnées
+
+# App update
+update.title=Nouvelle version de l'appli
+update.message=L'appli a été mise à jour. Recharger ?
+
+
+###############################
+# Labels used directly in source files (without Ext.i18n.Bundle plugin)
+###############################
+
+# App startscreen (index.html)
+loading.message=se charge. Préparez-vous...
+
+# Firststeps (app/util/Config.js)
+firststeps.form.username.placeholder=Pseudo
+
+# PullRefresh Plugin (app/util/Config.js)
+pullrefresh.dateformat=d/m/Y h:iA
